@@ -138,7 +138,6 @@ footer{
 	@include box-shadow(darken($cor-primaria, 30) 4px 4px 30px);
 
 	@media (max-width: 991px){
-		position: static;
 		height: auto;
 	}
 }

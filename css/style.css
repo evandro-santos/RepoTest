@@ -143,7 +143,6 @@ footer {
 }
 @media (max-width: 991px) {
   footer {
-    position: static;
     height: auto;
   }
 }
