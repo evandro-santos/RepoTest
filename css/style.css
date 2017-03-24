@@ -1,0 +1,161 @@
+body {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjQ1cHgiIGN5PSIxNTBweCIgcj0iNDAwJSI+PHN0b3Agb2Zmc2V0PSIyLjUlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2NjY2NjIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(45px 150px, #ffffff 10px, #cccccc 400px);
+  background-image: -webkit-radial-gradient(45px 150px, #ffffff 10px, #cccccc 400px);
+  background-image: radial-gradient(45px 150px, #ffffff 10px, #cccccc 400px);
+}
+
+header {
+  background: #e6e6e6;
+  background: url('../img/bg-topo.png?1490361652');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -moz-box-shadow: #295b95 2px 2px 30px;
+  -webkit-box-shadow: #295b95 2px 2px 30px;
+  box-shadow: #295b95 2px 2px 30px;
+}
+
+.cabecalho {
+  height: 150px;
+}
+
+.navbar {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjEuMCIgeTE9IjAuMCIgeDI9IjAuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzgwODA4MCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 100% 0%, 0% 100%, color-stop(0%, #ffffff), color-stop(100%, #808080));
+  background-image: -moz-linear-gradient(top, #ffffff, #808080);
+  background-image: -webkit-linear-gradient(top, #ffffff, #808080);
+  background-image: linear-gradient(to bottom left, #ffffff, #808080);
+  border: none;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  -moz-box-shadow: #295b95 5px 5px 30px;
+  -webkit-box-shadow: #295b95 5px 5px 30px;
+  box-shadow: #295b95 5px 5px 30px;
+}
+
+.navbar-default .navbar-brand {
+  color: #afd51b;
+  font-weight: bold;
+  border-right: 1px solid #afd51b;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background: #295b95;
+}
+.navbar-default .navbar-brand:hover {
+  border-right: 1px solid #cbe954;
+  color: #cbe954;
+  background: #2f67a9;
+}
+
+.btn-secondary {
+  background-color: #295b95;
+  color: white;
+}
+.btn-secondary:hover {
+  background-color: #3473bd;
+  color: white;
+}
+
+.btn-tertiary {
+  background-color: #afd51b;
+  color: white;
+}
+.btn-tertiary:hover {
+  background-color: #c4e63d;
+  color: white;
+}
+
+.cor-p {
+  color: #e6e6e6;
+}
+
+.cor-s {
+  color: #295b95;
+}
+
+.cor-t {
+  color: #afd51b;
+}
+
+.cor-q {
+  color: #70a5c5;
+}
+
+.minha-conta {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+.secao-principal > div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.secao-principal > div > div > div {
+  padding: 50px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.secao-principal > div > div > div > div {
+  height: 200px;
+  padding-top: 20px;
+  background: #afd51b;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  transition: all .2s ease-in-out;
+  color: #295b95;
+  -moz-box-shadow: #999999 4px 4px 30px;
+  -webkit-box-shadow: #999999 4px 4px 30px;
+  box-shadow: #999999 4px 4px 30px;
+}
+.secao-principal > div > div > div > div:hover {
+  transform: scale(1.02);
+  background-color: #c4e63d;
+  cursor: pointer;
+}
+.secao-principal > div > div > div > div span {
+  font-size: 1.5em;
+  margin-top: 30px;
+  display: block;
+  font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  background: rgba(112, 165, 197, 0.6);
+  width: 100%;
+  line-height: 30px;
+  -moz-box-shadow: #999999 4px 4px 30px;
+  -webkit-box-shadow: #999999 4px 4px 30px;
+  box-shadow: #999999 4px 4px 30px;
+}
+@media (max-width: 991px) {
+  footer {
+    position: static;
+    height: auto;
+  }
+}
+
+.empresa {
+  font-weight: bold;
+  color: #587699;
+}
+.empresa ul {
+  margin: 0;
+}
+
+.text-bold {
+  font-weight: bold;
+}

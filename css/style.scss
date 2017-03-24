@@ -1,0 +1,157 @@
+@import "compass";
+
+$cor-primaria: darken(#fff, 10);
+$cor-secundaria: #295b95;
+$cor-terciaria: darken(#c4e63d, 10);
+$cor-quaternaria: #70a5c5;
+
+$cor-fundo: lighten(desaturate($cor-secundaria, 30), 10);
+
+$altura-cabecalho: 150px;
+$altura-rodape: 30px;
+
+body{
+	@include background-image(radial-gradient(45px 150px, lighten($cor-primaria,30) 10px, darken($cor-primaria, 10) 400px));
+}
+
+header{
+	background: $cor-primaria;
+	@include background(image-url("../img/bg-topo.png"));
+	background-size: cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+	@include box-shadow($cor-secundaria 2px 2px 30px);
+}
+
+.cabecalho{
+	height: $altura-cabecalho;
+}
+
+.navbar{
+	@include background-image(linear-gradient(to bottom left, white, lighten(black, 50)));
+	border: none;
+	@include border-radius(15px);
+	@include box-shadow($cor-secundaria 5px 5px 30px);
+}
+
+.navbar-default .navbar-brand{
+	color: $cor-terciaria;
+	font-weight: bold;
+	border-right: 1px solid $cor-terciaria;
+	@include border-radius(15px);
+	background: $cor-secundaria;
+
+	&:hover{
+		border-right: 1px solid lighten($cor-terciaria, 15);
+		color: lighten($cor-terciaria, 15);
+		background: lighten($cor-secundaria, 5);
+	}
+}
+
+.btn-secondary{
+	background-color: $cor-secundaria;
+	color: white;
+
+	&:hover{
+		background-color: lighten($cor-secundaria, 10);
+		color: white;
+	}
+}
+
+.btn-tertiary{
+	background-color: $cor-terciaria;
+	color: white;
+
+	&:hover{
+		background-color: lighten($cor-terciaria, 10);
+		color: white;
+	}
+}
+
+.cor-p{
+	color: $cor-primaria;
+}
+
+.cor-s{
+	color: $cor-secundaria;
+}
+
+.cor-t{
+	color: $cor-terciaria;
+}
+
+.cor-q{
+	color: $cor-quaternaria;
+}
+
+.minha-conta{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+label{
+	margin-bottom: 0;
+}
+
+.secao-principal{
+	>div{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		>div{
+			>div{
+				padding: 50px;
+				@include border-radius(15px);
+				>div{
+					height: 200px;
+					padding-top: 20px;
+					background: $cor-terciaria;
+					@include border-radius(30px);
+					transition: all .2s ease-in-out;
+					color: $cor-secundaria;
+					@include box-shadow(darken($cor-primaria, 30) 4px 4px 30px);
+
+					&:hover{
+						transform: scale(1.02);
+						background-color: lighten($cor-terciaria, 10);
+						cursor: pointer;
+					}
+
+					span{
+						font-size: 1.5em;
+						margin-top: 30px;
+						display: block;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	height: $altura-rodape;
+	background: rgba($cor-quaternaria, 0.6);
+	width: 100%;
+	line-height: 30px;
+	@include box-shadow(darken($cor-primaria, 30) 4px 4px 30px);
+
+	@media (max-width: 991px){
+		position: static;
+		height: auto;
+	}
+}
+
+.empresa{
+	font-weight: bold;
+	color: $cor-fundo;
+
+	ul{
+		margin: 0;
+	}
+}
+
+.text-bold{
+	font-weight: bold;
+}
